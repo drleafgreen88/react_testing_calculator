@@ -13,7 +13,7 @@ describe("Calculator", () => {
     cy.get('#number2').click();
     cy.get('.display').should('contain', '22')
   })
-
+//You need to create new tests for each operator.
   it('should update the display with the result of the aritmetic operators', () => {
     cy.get('#number2').click();
     cy.get('#add').click();
